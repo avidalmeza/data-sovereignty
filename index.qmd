@@ -1,15 +1,263 @@
 ---
-title: "Indigenous Data Sovereignty in Ecology and Environmental Science"
+title: "Indigenous data sovereignty for environmental data scientists"
 author: "Alessandra Vidal Meza"
+institute: "Bren School of Environmnetal Science & Managment, UC Santa Barbara"
 bibliography: src/references.bib 
-csl: src/diabetologia.csl
+csl: src/ecology-letters.csl
 format:
   revealjs:
+    menu: false
     hash-type: number
     theme: [default, styles.scss]
     embed-resources: true # All assets will be contained within HTML file
-    # reference-location: document # Include footnotes at end of document
 ---
+
+## {data-menu-title="Since time immemorial…"}
+
+Communities have monitored the Land[^1] (species, ecosystem services, and climate) with observation, since time immemorial [@kukutaiDataSovereigntyIndigenous2016]
+
+<br>
+
+These observations (data) are **place-based** and require **protocol** (cultural and scientific) to become knowledge
+
+[^1]: Land as a proper noun; holds the "life and spirit" of all interdependent relations, like plants, water, animals, and humans [@liboironPollutionColonialism2021]
+
+## We gather data to produce knowledge
+
+Data is not knowledge, rather it’s discrete pieces of observation that get chosen, then woven together, filled with meaning, and turned into knowledge
+
+![](images/monitoring.png){.nostretch fig-align="center"}
+
+## But not all data is always gathered…
+
+&nbsp; 1. By whom is the data collected?
+
+&nbsp; 2. Where is the data collected?
+
+&nbsp; 3. How is the data collected?
+
+&nbsp; 4. Where is the data stored after collection?
+
+![](images/mgmnt_monitoring.png){.nostretch fig-align="center"}
+
+## What is Indigenous data sovereignty?
+
+> "...An assertion of the rights and interests of Indigenous Peoples in relation to data about them, their territories, and their ways of life"
+
+::: {.right-aligned-text}
+@carrollCAREPrinciplesIndigenous2020
+:::
+
+## But how is it exercised?
+
+**Data for governance**: "…Accurate, relevant, and timely data for policy and decision-making…"
+
+![](images/data_governance.png){fig-align="center"}
+
+::: {.right-aligned-text}
+[@carrollIndigenousDataGovernance2019]
+:::
+
+## But how is it exercised? {.unlisted}
+
+**Governance of data**: "…Mechanisms to honor, protect, and control information internally and externally…" 
+
+![](images/governance_data.png){fig-align="center"}
+
+::: {.right-aligned-text}
+[@carrollIndigenousDataGovernance2019]
+:::
+
+## Why governance of data?
+
+> “…[Indigenous communities must] rely on outsiders with the requisite resources to obtain this information”
+
+**Academia**
+  : Reliant on soft money $\rightarrow$ grants are in short cycles
+
+**Industry**
+  : Misaligned incentives $\rightarrow$ interest in bottom line
+
+**U.S. Government**
+  : "Domestic dependent nations" $\neq$ tribal sovereignty 
+
+::: {.right-aligned-text}
+@racineIndigenousDataSovereignty2022
+:::
+
+## What are the CARE principles?
+<br>
+  **C** &nbsp; &nbsp; &nbsp; Collective benefit (equity, development)
+<br><br>
+  **A** &nbsp; &nbsp; &nbsp; Authority to control (rights & interests)
+<br><br>
+  **R** &nbsp; &nbsp; &nbsp; Responsibility (to worldviews and for capacity)
+<br><br>
+  **E** &nbsp; &nbsp; &nbsp; Ethics (for justice and future generations)
+
+## What is collective benefit?
+
+Collective benefit restores and maintains the relationships and responsibilities of the community across intergenerational time scales and kinship time (shifts in relationships)
+
+::: {.right-aligned-text}
+kyle whyte time
+:::
+
+## What is collective benefit?
+
+- Disaggregate data $\rightarrow$ is it relevant and actionable?
+- Code with Indigenous definitions and classifications
+- Compensate and attribute knowledge keepers
+
+::: {.right-aligned-text}
+[@jennings_applying_2023]
+:::
+
+## What is collective benefit?
+
+::: {.panel-tabset}
+### Disaggregation
+Does resolution and sampling match community needs?
+
+- Summary statistics may hide relationships between variables for the most vulnerable
+- Large data products can be irrelevant and tedious for nations with less capacity
+
+### Classification
+
+Kichwa ethnoichthyological classification is multidimensional: body size; color; related to animals; related to plants; and related to tools
+
+<br>
+
+When relations are considered, new fish species sub-differentiation insights were gained over the Linnaean species
+
+::: {.right-aligned-text}
+[@tobes_ethnoichthyology_2022]
+:::
+
+### Attribution
+
+- **During collection**: Ensure proper compensation, authorship, and provenance of knowledge 
+- **For communication**: Use relevant citation templates and reference guides [@macleod_more_2021; @younging_elements_2018]
+:::
+  
+## What is authority to control? 
+
+Authority control asserts the rights to harness tribal cultures, values, principles, and mechanisms and apply them to the management and control of the entire data ecosystem 
+
+::: {.right-aligned-text}
+[@carroll_indigenous_2019]
+:::
+
+## What is authority to control? 
+  
+- Approach consent as dynamic and interactive
+- Return outputs to rightsholders in a usable format
+- Defer to Indigenous control of data life cycle
+
+::: {.right-aligned-text}
+[@jennings_applying_2023]
+:::
+
+## What is authority to control? 
+
+Data Management Plans (DMP) need to recognize communities as **rightsholders**, not stakeholders
+
+<br>
+
+DMPs must be co-developed (and re-negotiated) with these communities, collectives and organizations; "no matter how well intentioned, external collaborators cannot impose an IDS agenda on behalf of a partnering community"
+
+::: {.right-aligned-text}
+[@Tattersall_2025]
+:::
+
+## What is responsibility? 
+
+Responsibility refers to the relationship and investment with community values, worldviews, and innovation
+
+## What is responsibility? 
+
+- Expand opportunities for community capacity
+- Respect reciprocity within metadata and labeling
+- Affirm community worldviews in data representation
+
+::: {.right-aligned-text}
+[@jennings_applying_2023]
+:::
+
+## What is responsibility? 
+
+::: {.panel-tabset}
+### Capacity building
+> "Our cross-cultural partnership approach—called the Sikumiut-SmartICE model—focuses on developing the skills of young Inuit to create the maps, while non-Indigenous partners provide mentorship, tools, and training"
+
+::: {.right-aligned-text}
+@beaulieu_indigenous_2023
+:::
+
+### Metadata
+[**Local Contexts**](https://localcontexts.org/) provide a series of labels and notices that communicate permissions
+
+<br>
+
+The **Maine-eDNA** project has collected samples to better understand human disturbances to coastal macrosystems; partnered with Wabnaki Tribal Nations to add digital markers and labels about the cultural rights and Lands from which the samples were gathered
+
+### Worldview
+
+- [**Llamk’ana**](https://labtecnosocial.org/llamkana-un-lenguaje-de-programacion-en-quechua/) (Quechua) uses patterns of repetition, sequence, and decision from textile making to communicate algorithms
+- Jon Corbett on **Cree#**: "...from using computers and programming as tools to generate my artwork to viewing computers as animate creatures, digital representations of my Indigenous heritage..." [@corbett__2023]
+:::
+
+## What are ethics? 
+
+Ethics refers to the obligations and responsibilities, in conduct and partnerships, that are gained by working with communities
+  
+## What are ethics? 
+
+- Uphold a community-defined review processes
+- Disclose potential financial gain and share benefits
+- Consider potential of harm in data protocols
+
+## What are ethics?
+
+::: {.panel-tabset}
+### All relations are collaborators
+
+- **Seven generations (Haudenosaunee)**: Is the decision obliged to seven generations in the future?
+
+> "Committee members understand the need to have accurate harvest data by stock to sustainably manage the hunt. They also recognize that this information could be ‘used against them’ by anti-whaling or animal protectionist groups…"
+
+::: {.right-aligned-text}
+FROST
+:::
+  
+### Who's monitoring?
+
+- Asymmetrical distribution of equipment and engagement creates power and bias
+- Co-production of monitoring system is a step towards self-determination in management
+
+:::
+
+## True sovereignty requires relational obligation in monitoring
+
+> “...The question is not ‘what can I do with this data?’ but ‘to whom am I obliged with this data? What does this data and its data holder owe to community and Land, and how do I best meet those obligations in how this data is stored, shared (or not) and interpreted?’”
+
+<br>
+
+Data relationships and practices cannot be simple checkboxes as this can repeat or exacerbate remainders of colonialism
+
+## Tools for data sovereignty
+- Encryption 
+- Time destruction of datasets and keys
+- Anonymization
+- Access limitations
+- Metadata (e.g., provenance documentation)
+- Selective reporting (e.g., permissions)
+- Use of Indigenous languages
+- Review processes (e.g., Tribal regulations)
+
+::: {.right-aligned-text}
+[@carroll_indigenous_2024]
+:::
 
 ## Data...
 - is discrete information organized into knowledge
@@ -17,175 +265,12 @@ format:
 - wields power as a decision making force
 - "...[is] synonymous with life in a modern society..." [@carroll_indigenous_2019]
 
-<!--
-## What is Data Sovereignty? 
-> “Quiet simply, data sovereignty means managing information in a way that is consistent with the laws, practices and customs of the nation-state in which it is located.” [@kukutai_what_2016]
--->
+## {data-menu-title="Most importantly..."}
+> "We cannot measure everything and not everything sacred can be explained."
 
-## Indigenous Data Sovereignty
-> "...An assertion of the rights and interests of Indigenous Peoples in relation to data about them, their territories, and their ways of life" [@carroll_care_2020]
-
-<!--Indigenous peoples exercise IDS through **Indigenous data governance** across the data ecosystem (ownership, access, control).-->
-
-## Indigenous Data Governance
-> "Indigenous data governance is the act of harnessing tribal cultures, values, principles, and mechanisms...and applying them to the management and control of Indigenous nation's data ecosystem" [@carroll_indigenous_2019]
-
-<br>
-
-- **Data for governance**: "...Accurate, relevant, and timely data for policy and decision-making..." [@carroll_indigenous_2019]
-- **Governance of data**: "...Mechanisms to honor, protect, and control their information both internally and externally..." [@carroll_indigenous_2019]
-
-<!--
-## "A New Take on an Old Theme"
-> "With the increasing datafication of all aspects of human (and increasingly nonhuman) life, Indigenous Peoples are also having to defend their information from new forms of exploitation." [@kukutai_indigenous_2016]
--->
-
-## In Environmental Monitoring
-Communities have led monitoring of Land [@liboiron_pollution_2021], including species, ecosystem services, climate, since time immemorial [@kukutai_building_2016]
-<br><br>
-These observations (data) are **place-based** and often require **protocol** (cultural and ecological) to become knowledge
-
-<!--Land as a proper noun and holds the "life and spirit" of plants, water, animals, humans, etc.-->
-
-## {data-menu-title='To Whom Am I Obliged with This Data?'}
-> “...The question is not ‘what can I do with this data?’ but ‘to whom am I obliged with this data? What does this data and its data holder owe to community and Land, and how do I best meet those obligations in how this data is stored, shared (or not) and interpreted?’” [@carroll_indigenous_2024]
-
-## What Does It Look Like?
-Data relationships and practices cannot be simple checkboxes. This can repeat or exacerbate remainders of colonialism
-<br><br>
-
-> “...Indigenous communities must [often] forgo having access to certain types of information about themselves or must rely on outsiders with the requisite resources to obtain this information” [@kukutai_what_2016]
-
-## External Data Collection [@racine_indigenous_2022]
-**Academia**
-: Reliant on soft money $\rightarrow$ grants are in short cycles
-
-**Industry**
-: Misaligned incentives $\rightarrow$ interest in bottom line
-
-**U.S. Government**
-: "Domestic dependent nations" $\neq$ tribal sovereignty 
-
-<!--
-## A Look at Federal Indian Law
-> “They occupy a territory to which we assert a title independent of their will, which must take effect in point of possession when their right of possession ceases. Meanwhile they are in a state of pupilage. Their relation to the United States resembles that of a ward to his guardian. They look to our government for protection; rely upon its kindness and its power; appeal to it for relief to their wants; and address the President as their Great Father.”^[Chief Justice Marshall on Cherokee Nation v. Georgia in 1831]
--->
-
-<!--
-## Guiding Questions from UNFPII
-- For whom are we collecting data?
-- How do we collect the data?
-- What should be measured?
-- Who should control information?
-- What are the data for?
--->
-
-## The CARE Principles
-- **C**: Collective benefit (equity, development)
-- **A**: Authority to control (governance)
-- **R**: Responsibility (to worldviews and for capacity)
-- **E**: Ethics (for justice and future generations)
-
-## C: Collective Benefit [@jennings_applying_2023]
-- Collect and code using Indigenous-led definitions and/or Indigenous data classifications
-- Data disaggregation $\rightarrow$ is it relevant/actionable?
-- Compensation of/attribution to knowledge keepers and holders
-
-## What Does (C)ARE Look Like?
-::: {.panel-tabset}
-### Classification
-Use definitions from within Indigenous communities to monitor Indigenous Land
-<br><br>
-
-> "The Kichwa ethnoichthyological classification is multidimensional. The most common classification criteria are morphological attributes, but other biological, ecological and gastronomical characteristics are also considered" [@tobes_ethnoichthyology_2022]
-
-<!--
-Consider the **community-based participatory research (CBPR)** framework advocated by Dr. Jessica Hernandez (Binnizá & Maya Ch'orti'), which moves away from top-down approach of research and invites researchers to follow Indigenous protocols and co-produce research.
--->
-
-### Disaggregation
-Does resolution and sampling match community needs?
-<br>
-
-- Data is not objective nor how we aggregate them
-- Summary statistics may hide relationships between variables of the most vulnerable
-- Data synthesis can be irrelevant and tedious for nations with less capacity
-
-### Attribution
-- **During data collection**: Ensure proper compensation, authorship, and provenance (source or steward) of knowledge 
-- **For data communication**: Use Indigenous-led citation templates and reference guides, like those developed by MacLeod [@macleod_more_2021] and Younging [@younging_elements_2018]
+::: {.right-aligned-text}
+Nikita Kahpeaysewat
 :::
-
-## A: Authority to Control [@jennings_applying_2023]
-- Return all outputs to the rightsholders in usable format
-- Respect Free, Prior, and Informed Consent (FPIC)
-- Re/evaluation of community support, participation, and approval
-
-## What Does C(A)RE Look Like?
-Indigenous peoples and communities must be recognized as **rightsholders**, not stakeholders, in Data Management Plans (DMP) to exercise sovereignty:
-<br>
-
-- **Data for governance**: Authority to determine representation and identification within data [@noauthor_care_2019]
-- **Governance of data**: "...Control how information about them is collected, used and disclosed...from collection of data to the use, disclosure and ultimate destruction of data" [@noauthor_ownership_2014]
-
-<!-- 
-- Does community care show up in the data protocol?
-- Is there a community-defined review process? 
-- Can communities remove themselves from aggregated datasets?
--->
-
-## R: Responsibility [@jennings_applying_2023]
-- Create/expand opportunities for community capacity
-- Respect reciprocity/trust within metadata and labeling
-- Affirm community worldviews
-- Upload data in culturally relevant formats (visual, seasonal, etc.)
-
-## What Does CA(R)E Look Like?
-::: {.panel-tabset}
-### Capacity Building
-> "Our cross-cultural partnership approach—called the Sikumiut-SmartICE model—focuses on developing the skills of young Inuit to create the maps, while non-Indigenous partners provide mentorship, tools, and training" [@beaulieu_indigenous_2023]
-
-### Metadata/Labeling
-[**Local Contexts**](https://localcontexts.org/) provide a series of labels and notices that communicate permissions and support ethical use of data
-
-### Worldview
-- [**Llamk’ana**](https://labtecnosocial.org/llamkana-un-lenguaje-de-programacion-en-quechua/) (Quechua) uses patterns of repetition, sequence, and decision from textile making to communicate algorithms
-- Jon Corbett on **Cree#**: "...from using computers and programming as tools to generate my artwork to viewing computers as animate creatures, digital representations of my Indigenous heritage..." [@corbett__2023]
-:::
-
-## E: Ethics [@jennings_applying_2023]
-- Follow and uphold a community-defined review processes
-- Disclose potential financial gain and share benefits
-- Consider potential of community harm in data protocols
-
-## What Does CAR(E) Look Like?
-::: {.panel-tabset}
-### Future Collaborators
-**Seven Generations (Haudenosaunee)**
-: Is the decision sustainable seven generations in the future?
-
-**Pacha (Quechua)**
-: "...Is [both] time and space and a moment in space and time." [@sanchez_perez_quechua_2023]
-
-### Who's Monitoring?
-- "...Asymmetrical distribution of resources, expertise, equipment and engagement..." [@longdon_justice-oriented_2024]
-- **Co-production** (which includes co-design) "...offers a high[er] level of transparency, and the power, knowledge, decision-making, benefits, and finances are shared equally among participants from the outset of a project" [@steven_albert_research_2023]
-:::
-
-## Tools for Data Sovereignty [@carroll_indigenous_2024]
-- Encryption 
-- Time destruction of datasets and keys
-- Anonymization
-- Access limitations (e.g., community-specific rules and responsibilities)
-- Metadata (e.g., provenance documentation)
-
-## Tools for Data Sovereignty [@carroll_indigenous_2024]
-- Selective reporting (e.g., permissions)
-- Use of Indigenous languages
-- Research review processes (e.g., Tribal regulations)
-
-## {data-menu-title='Most Importantly...'}
-<h1>Most importantly, defer to Indigenous communities on decision making</h1>
-
+  
 ## References
 <!-- References are populated from src/references.bib on render -->
