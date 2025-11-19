@@ -14,7 +14,7 @@ format:
 
 ## {data-menu-title="Since time immemorial…"}
 
-Communities have monitored the Land[^1] (species, ecosystem services, and climate) with observation, since time immemorial [@kukutaiDataSovereigntyIndigenous2016]
+Communities have monitored the Land[^1] (species, ecosystem services, and climate) with observation, since time immemorial [@kukutaiIndigenousDataSovereignty2016]
 
 <br>
 
@@ -82,7 +82,7 @@ Data is not knowledge, rather it’s discrete pieces of observation that get cho
   : "Domestic dependent nations" $\neq$ tribal sovereignty 
 
 ::: {.right-aligned-text}
-@racineIndigenousDataSovereignty2022
+[@racineIndigenousDataSovereignty2022]
 :::
 
 ## What are the CARE principles?
@@ -100,7 +100,7 @@ Data is not knowledge, rather it’s discrete pieces of observation that get cho
 Collective benefit restores and maintains the relationships and responsibilities of the community across intergenerational time scales and kinship time (shifts in relationships)
 
 ::: {.right-aligned-text}
-kyle whyte time
+[@whyteTimeKinship2019]
 :::
 
 ## What is collective benefit?
@@ -110,7 +110,7 @@ kyle whyte time
 - Compensate and attribute knowledge keepers
 
 ::: {.right-aligned-text}
-[@jennings_applying_2023]
+[@jenningsApplyingCAREPrinciples2023]
 :::
 
 ## What is collective benefit?
@@ -131,13 +131,13 @@ Kichwa ethnoichthyological classification is multidimensional: body size; color;
 When relations are considered, new fish species sub-differentiation insights were gained over the Linnaean species
 
 ::: {.right-aligned-text}
-[@tobes_ethnoichthyology_2022]
+[@tobesEthnoichthyologyEthnotaxonomyKichwa2022]
 :::
 
 ### Attribution
 
 - **During collection**: Ensure proper compensation, authorship, and provenance of knowledge 
-- **For communication**: Use relevant citation templates and reference guides [@macleod_more_2021; @younging_elements_2018]
+- **For communication**: Use relevant citation templates and reference guides [@macleodMorePersonalCommunication2021; @youngingElementsIndigenousStyle2018]
 :::
   
 ## What is authority to control? 
@@ -145,7 +145,7 @@ When relations are considered, new fish species sub-differentiation insights wer
 Authority control asserts the rights to harness tribal cultures, values, principles, and mechanisms and apply them to the management and control of the entire data ecosystem 
 
 ::: {.right-aligned-text}
-[@carroll_indigenous_2019]
+[@carrollIndigenousDataGovernance2019]
 :::
 
 ## What is authority to control? 
@@ -155,7 +155,7 @@ Authority control asserts the rights to harness tribal cultures, values, princip
 - Defer to Indigenous control of data life cycle
 
 ::: {.right-aligned-text}
-[@jennings_applying_2023]
+[@jenningsApplyingCAREPrinciples2023]
 :::
 
 ## What is authority to control? 
@@ -167,7 +167,7 @@ Data Management Plans (DMP) need to recognize communities as **rightsholders**, 
 DMPs must be co-developed (and re-negotiated) with these communities, collectives and organizations; "no matter how well intentioned, external collaborators cannot impose an IDS agenda on behalf of a partnering community"
 
 ::: {.right-aligned-text}
-[@Tattersall_2025]
+[@tattersallAffirmingIndigenousData2025]
 :::
 
 ## What is responsibility? 
@@ -181,7 +181,7 @@ Responsibility refers to the relationship and investment with community values, 
 - Affirm community worldviews in data representation
 
 ::: {.right-aligned-text}
-[@jennings_applying_2023]
+[@jenningsApplyingCAREPrinciples2023]
 :::
 
 ## What is responsibility? 
@@ -191,7 +191,7 @@ Responsibility refers to the relationship and investment with community values, 
 > "Our cross-cultural partnership approach—called the Sikumiut-SmartICE model—focuses on developing the skills of young Inuit to create the maps, while non-Indigenous partners provide mentorship, tools, and training"
 
 ::: {.right-aligned-text}
-@beaulieu_indigenous_2023
+@beaulieuIndigenousSelfdeterminationCryospheric2023
 :::
 
 ### Metadata
@@ -204,7 +204,7 @@ The **Maine-eDNA** project has collected samples to better understand human dist
 ### Worldview
 
 - [**Llamk’ana**](https://labtecnosocial.org/llamkana-un-lenguaje-de-programacion-en-quechua/) (Quechua) uses patterns of repetition, sequence, and decision from textile making to communicate algorithms
-- Jon Corbett on **Cree#**: "...from using computers and programming as tools to generate my artwork to viewing computers as animate creatures, digital representations of my Indigenous heritage..." [@corbett__2023]
+- Jon Corbett on **Cree#**: "...from using computers and programming as tools to generate my artwork to viewing computers as animate creatures, digital representations of my Indigenous heritage..." [@corbettProgrammingCreeAncestral2023]
 :::
 
 ## What are ethics? 
@@ -217,6 +217,10 @@ Ethics refers to the obligations and responsibilities, in conduct and partnershi
 - Disclose potential financial gain and share benefits
 - Consider potential of harm in data protocols
 
+::: {.right-aligned-text}
+[@jenningsApplyingCAREPrinciples2023]
+:::
+
 ## What are ethics?
 
 ::: {.panel-tabset}
@@ -227,13 +231,14 @@ Ethics refers to the obligations and responsibilities, in conduct and partnershi
 > "Committee members understand the need to have accurate harvest data by stock to sustainably manage the hunt. They also recognize that this information could be ‘used against them’ by anti-whaling or animal protectionist groups…"
 
 ::: {.right-aligned-text}
-FROST
+@frostAlaskaBelugaWhale2021
 :::
   
 ### Who's monitoring?
 
 - Asymmetrical distribution of equipment and engagement creates power and bias
 - Co-production of monitoring system is a step towards self-determination in management
+- Respond to community with judgmental sampling over random sampling
 
 :::
 
@@ -241,9 +246,11 @@ FROST
 
 > “...The question is not ‘what can I do with this data?’ but ‘to whom am I obliged with this data? What does this data and its data holder owe to community and Land, and how do I best meet those obligations in how this data is stored, shared (or not) and interpreted?’”
 
-<br>
+::: {.right-aligned-text}
+@carrollIndigenousDataSovereignty2024
+:::
 
-Data relationships and practices cannot be simple checkboxes as this can repeat or exacerbate remainders of colonialism
+<!--Data relationships and practices cannot be simple checkboxes as this can repeat or exacerbate remainders of colonialism-->
 
 ## Tools for data sovereignty
 - Encryption 
@@ -256,14 +263,14 @@ Data relationships and practices cannot be simple checkboxes as this can repeat 
 - Review processes (e.g., Tribal regulations)
 
 ::: {.right-aligned-text}
-[@carroll_indigenous_2024]
+[@carrollIndigenousDataSovereignty2024]
 :::
 
 ## Data...
 - is discrete information organized into knowledge
 - asserts (statistical) identity and self-determination
 - wields power as a decision making force
-- "...[is] synonymous with life in a modern society..." [@carroll_indigenous_2019]
+- "...[is] synonymous with life in a modern society..." [@carrollIndigenousDataGovernance2019]
 
 ## {data-menu-title="Most importantly..."}
 > "We cannot measure everything and not everything sacred can be explained."
